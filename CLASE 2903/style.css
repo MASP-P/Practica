@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.contenedor {
+    background: rosybrown;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor {
+
+}
+
+
+
+.seccion1 {
+    background: plum;
+    width: 562px;
+    height: 100px;
+}
+
+.seccion2 {
+    background: blanchedalmond;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.seccion3 {
+    background:     yellowgreen;
+}
+
+.seccion4 {
+    background: peru;
+    height: 2em;
+    /* em es proporcional al primer tamaño de la fuente encontrado en un nivel superio */
+}
+
+.titulo {
+    color: firebrick;
+}
+
+.subseccion2 {
+    background-color: blueviolet;
+    font-size:  20px;
+    width: 20rem;
+    height: 2rem;
+}
+
+.subseccion2 h1{
+    color: aqua;
+}

@@ -1,0 +1,51 @@
+.contenedor {
+    display: flex;
+    border: 20px solid;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+
+.seccion1 {
+    border: 2px solid;
+    flex-basis: 33%;
+    background-color: blueviolet;
+}
+
+.seccion2 {
+    border: 2px solid;
+    flex-basis: 33%;
+    background-color: rosybrown;
+}
+
+.seccion3 {
+    border: 2px solid;
+    flex-basis: 33%;
+    background-color: green;
+}
+
+@media (min-width: 500px) {
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+    .seccion1 {
+
+    }
+
+    .seccion2 {
+        background: cornflowerblue;
+    }
+
+    .seccion3 {
+        
+    }
+}
+
+.seccion1 {
+    display: none;
+}
+
+.seccion 2 {
+}

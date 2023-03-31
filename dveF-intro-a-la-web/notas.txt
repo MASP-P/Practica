@@ -1,0 +1,12 @@
+
+
+Estructura
+
+html etiqueta-> Toda etiqueta que se abre se tiene que cerrar
+head etiqueta-> Toda etiqueta que se abre se tiene que cerrar
+body etiqueta-> Toda etiqueta que se abre se tiene que cerrar
+footer etiqueta -> Toda etiqueta que se abre se tiene que cerrar
+
+CP copia archivos o carpetas
+ sintaxis.- cp directorio-de-donde-se-copia directorio-a-donde-queremos-copiar
+revisar emet para comandos rapidos de html 

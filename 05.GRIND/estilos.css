@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-4 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen (min-wdth:300px) {
+ section{
+    background-color: plum;
+    border: 2px solid purple;
+    grid-column: span 2
+ }           
+}
+
+ @media screen and (max-width:300px) {
+    
+ }
+    grid-column: span 2;
+}
+
+aside{
+    background-color: aquamarine;
+}
+
+#principal{
+    background-color: lightskyblue;
+    /* El espacio que ocupa es desde la primera linea del grid hasta la cuarta linea del grid*/
+    grid-column: 2 / 4;
+}
